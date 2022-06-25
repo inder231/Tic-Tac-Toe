@@ -1,0 +1,50 @@
+.heading{
+    position: absolute;
+    top:10px;
+    left:45%;
+    color: rgb(173, 153, 153);
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(lightblue,rgb(255, 244, 224));
+}
+table td{
+    border: 3px solid grey;
+    width: 100px;
+    height: 100px;
+}
+.cell{
+    font-weight: bold;
+    font-size: 35px;
+}
+.turn{
+    font-size: 22px;
+    margin-right: 20px;
+    font-weight: bold;
+    padding:10px 20px;
+    width: 100px;
+    background-color: rgb(186, 224, 110);
+}
+.winnerDiv h3{
+    font-size: 45px;
+    color: red;
+}
+.winnerDiv button{
+    border: none;
+    padding: 10px 20px;
+    background-color: lightblue;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.resetbtn{
+    border: none;
+    padding: 10px 20px;
+    background-color: lightblue;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold;
+}
